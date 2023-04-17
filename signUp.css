@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(Pic-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    background-color:rgb(255, 255, 255);
+    padding: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 35vw;
+    margin: auto;
+    height: 75vh;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+
+
+  h1 {
+    margin-bottom: 3%;
+    text-align: center;
+    font-family: algerian;
+    color: #0c01a8;
+    letter-spacing: 0.1em;
+  }
+
+  .textdiv {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(15, 4, 158);
+  }
+
+  input {
+    margin-bottom: 5%;
+    width: 100%;
+    background: none;
+    box-sizing: border-box
+    ;
+  }
+  
+  input:last-of-type {
+    margin-bottom: 3%;
+    width: 100%;
+  }
+  
+  input, button {
+    padding: 3%;
+    width: 100%;
+  }
+
+  #submit, #create-acct-btn {
+    background-color: #034eb1;
+    color: white;
+    border: none;
+    margin-top: 5%;
+    transition: 0.5s;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  
+  #sign-up {
+    border: none;
+    font-size: 20px;
+    color: rgb(15, 4, 158);
+  }
+
+  #create-acct {
+    display: none;
+  }
+  
+  #return-btn {
+    background: none;
+    color: rgb(110, 9, 243);
+    text-decoration: underline;
+    border: none;
+    margin-top: 3%;
+    font-size: 20px;
+  }
